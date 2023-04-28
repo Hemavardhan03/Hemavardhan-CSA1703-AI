@@ -1,0 +1,26 @@
+>>> a = int(input("enter number1="))
+enter number1=2
+>>> b=int("input("enter number2="))
+  File "<stdin>", line 1
+    b=int("input("enter number2="))
+                  ^
+SyntaxError: invalid syntax
+>>> a = int(input("enter number1="))
+enter number1=2
+>>> b=int(input("enter number2="))
+enter number2=5
+>>> add=a+b
+>>> sub=a-b
+>>> mul=a*b
+>>> div=a/b
+>>> print
+KeyboardInterrupt
+>>> print("additin=",add)
+additin= 7
+>>> print("subtractin=",sub)
+subtractin= -3
+>>> print("multiplicatin=",mul)
+multiplicatin= 10
+>>> print("divisin=",div)
+divisin= 0.4
+>>>
